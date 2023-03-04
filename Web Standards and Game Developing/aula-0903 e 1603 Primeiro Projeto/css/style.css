@@ -1,0 +1,21 @@
+/* sinal de virgula na regra CSS agrega elementos */
+h1,
+h2,
+h3 {
+    /*color define a cor da letra */
+    color: rgb(228, 30, 30);
+    /* define a fonte que o elemento terá */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* tamanho da fonte */
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 35px;
+    color: #f60;
+    ;
+}
+
+h3 {
+    font-size: 22px;
+}

@@ -1,0 +1,33 @@
+/* link com as fontes do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Oswald:wght@600&display=swap');
+
+h1 {
+    color: rgb(32, 123, 228);
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+}
+
+h2,
+h3 {
+    font-family: 'Oswald', sans-serif;
+    color: #dc143d;
+
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    text-align: left;
+    text-decoration: none;
+    text-transform: none;
+    text-indent: none;
+    word-spacing: 1px;
+    line-height: 20px;
+}
+
+img {
+    /* largura */
+    width: 300px;
+    /* altura */
+    /* height:400px; */
+}

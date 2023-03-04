@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Semântica</title>
+</head>
+<body>    
+    
+    <!-- Cabeçalho da página - topo da página -->
+    <!-- Container foi uma classe que eu pensei em ser mais genérica - definir um container - genérica -->
+
+    <header class="container header__page">
+        <h2>Olá sou um header</h2>
+    </header>
+
+    <!-- Define o conteudo principal da sua página -->
+    <!-- por boa prática utilizar apenas uma tag main por página -->
+    <main class="container wrapper">
+        <h2>Aqui começa o conteúdo principal</h2>
+        <!-- article é independente - pode nem pertencer a esse conteúdo -->
+        <!-- utilize article se: o conteúdo que ele possuir tenha total coerência caso ele seja separado da página -->
+
+        <article class="container new_article">
+            <h2>Sou um article - Conteúdo independente</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi facere, illum itaque in unde placeat, molestiae, recusandae quisquam deserunt facilis est repellat? Blanditiis accusamus rem consectetur reprehenderit, ipsum quasi quibusdam fugit quas temporibus, veniam sunt accusantium velit aperiam pariatur, tempore est deserunt. Facere, eligendi dolorem reiciendis laudantium consequatur dolore provident in esse dolor possimus quos accusantium recusandae saepe numquam dolorum exercitationem facilis beatae non. Laudantium iusto laborum enim a corporis nihil inventore illum aliquid tenetur quo odio corrupti at ipsa ab, dolores earum facere itaque nemo esse non aperiam ad. Est aut voluptatum recusandae assumenda nam et, maiores fugiat. Minima aut obcaecati nam commodi mollitia, expedita fugiat, excepturi corrupti odit iusto corporis. Quae at quod id repudiandae, officia, nisi eveniet impedit a cum unde dicta praesentium similique totam error quisquam tempore earum corrupti quos vero commodi animi! Numquam debitis omnis eum beatae delectus repellendus qui, molestias quo doloremque consectetur dolorem labore deleniti expedita voluptatibus voluptas similique adipisci corporis reiciendis fuga neque dolores modi officiis. Tenetur beatae, atque dicta tempore quos totam dignissimos facere id. Incidunt, odit? Ipsam, qui rem eius sapiente soluta assumenda, amet earum doloribus animi aut cupiditate quod enim eaque nobis nostrum, nihil ipsum mollitia sequi necessitatibus veniam!
+            </p>
+        </article>
+        <h2>A section tem conteúdos relacionados</h2>
+        <section class="container new__section">
+            
+            <div class="new__section__item">
+                <img src="./images/Startup_Iso.svg" alt="Imagem de startup de tecnologia espacial">
+                <h3>Lorem Ipsum</h3>
+            </div>
+            
+            <div class="new__section__item"
+                <img src="./images/Startup_Mono.svg" alt="Imagem de uma nova startup">
+                <h3>Lorem Ipsum</h3>
+            </div>
+            
+            <div class="new__section__item">
+                <img src="./images/Web_Developer.svg" alt="Imagem de um dev em apuros com o cliente">
+                <h3>Lorem Ipsum</h3>
+            </div>
+        </section>
+
+          <!-- conteúdo complementar - algum conteudo, na maioria das vezes ao lado de um menu com links e/ou informações relacionadas -->
+        <h2>Section com aside</h2>
+
+        <section class="container new__section">
+            <div class="text_content">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Est totam, quas nemo iure aut obcaecati nesciunt quaerat, illo vero perspiciatis repellendus nihil sapiente? Cumque nobis quia, corporis voluptatem veniam unde natus deleniti cum doloremque quisquam et repellendus vel libero omnis sapiente. Quos voluptatibus excepturi cupiditate expedita ut illo odio harum doloremque unde, inventore maiores, quidem debitis, corporis dolorum nihil laudantium? Iure repellat numquam nisi necessitatibus illo laboriosam totam blanditiis sit.
+            </div>
+            <aside class="text_links">
+                <h3>Conteúdo Relacionado</h3>
+                <nav>
+                    <ul>
+                        <li><a href="">links</a></li>
+                        <li><a href="">links</a></li>
+                        <li><a href="">links</a></li>
+                        <li><a href="">links</a></li>
+                    </ul>
+                </nav>
+            </aside>
+            
+
+        </section>
+
+        <div class="direita-esquerda">
+            <div class="esquerda">
+                ok ok
+            </div>
+
+            <div class="direita">
+                uhum uhum
+            </div>
+        </div>
+
+    </main>
+    
+    <!-- rodapé da página -->
+    <footer class="container footer__page"> 
+        <h2>Olá, sou um footer</h2>
+    </footer>
+        
+
+    
+
+</body>
+</html>

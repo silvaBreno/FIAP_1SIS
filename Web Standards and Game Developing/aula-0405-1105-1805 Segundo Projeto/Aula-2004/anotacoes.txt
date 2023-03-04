@@ -1,0 +1,50 @@
+https://wireframe.cc/vpuij9
+
+divs sempre ocupam todo o espaco na linha, entao se vc quer 100% nao precisa definir a largura;
+
+vou usar um servidor de conteudo para poder usar o Foguete e que possui as classes das fonts awesome
+cdn (replicador de conteudo)- espalhos pelo mundo - ele faz a requisicao (http)- vai ser sua geolocalizacao e te direciona para o servidor mais proximo que tenha esse recurso  - https://cdnjs.com/libraries/font-awesome
+
+container flexivel - facilitará o posicionamento
+Lembrar - O PAI DEVE RECEBER O DISPLAY FLEX - os filhos por padrao ficam um ao lado do outro, por padrao eles recebem o flex-direction como row
+flex-direction = column (um abaixo do outro)
+
+align-items - faz o alinhamento vertical (pela altura do componente)
+
+justify-content - faz o alinhamento horizontal
+space-between - posiciona pela extremidades 
+  para 2 itens ficaria - 1 na esquerda e o outro na direita
+
+.menu__principal ul
+formatar[a apenas a ul que esteja no elemento com a class no menu menu__principal
+
+list-style retira o marcador ou numerado da lista
+por padrao quando um elemento vira um flex container os seus filhos (que sao os flex-items) ficam um ao lado do outro
+elemento quando flex = receber um
+
+criar as areas de conteudo da pagina 
+vou usar div= 3 div
+imagem de fundo ---> background-imagem
+por padrao ela repetem caso seja menor que o elemento
+entao usar background-repeat com opcao no-repeat
+background-size --> definir o tamanho da imagem de fundo
+o mais usual é o cover expandir a imagem para tentar ocupar 
+
+Existem duas unidades de medida que usam o viewport
+área de exibicao de conteudo que o dispositivo (notebook-tablet-celular) possue
+
+
+
+------------------------
+
+dia 04/05 
+
+classe container ela é bem genérica - ela será para a criação de todos container ela tem: largura / altura / imagem de fundo
+
+
+
+background-attachment: scroll ==> A imagem de fundo acompanha a rolagem da tela
+fixed ==> a imagem de fundo ficará fixa na tela, enquanto a rolagem for executada
+flex por padrão os filhos ao lado do pai
+flex-direction = row (um ao lado do outro)
+flex-direction = column (um abaixo do outro)

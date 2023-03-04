@@ -1,0 +1,39 @@
+Position - mudar posição de algum elemento. 
+
+Os elementos se posicional conforme eles são inseridos no código (fluxo normal). Position muda esse fluxo.
+
+static - fixed- relative - absolute - sticky
+
+Por padrão todo elemnto é static ele segue o fluxo
+
+Quando aplicamos fixed - relativo - absolute - sticky e vc automaticamente ganha 5 outras propriedades, sendo: -> top, bottom, left e right
+Feito isso, basta definir 1 valor para uma das propriedades:
+
+TOP e BOTTOM - cuida do EIXO Y
+
+LEFT E RIGHT - cuida do EIXO X
+
+quinta propriedades é o:
+z-index = cuida da "profundidade" = quem tem maior valor fica "acima" - só funciona com position diferente de static
+
+ps: se eu não aplicar uma das propriedades "static - fixed- relative - absolute - sticky" eu não consigo aplicar "top, bottom, left e right"
+
+
+static = posicição inicial = NÃO MUDA NADA
+
+fixed - vai fixar o elemento em uma noma posição. Cria um contexto próprio de posicionamento, os elementos abaixo dele ocuparação o lugar que era do container
+
+relative - mudar a posição do elemento, tendo como referencia a sua posiçao original(fluxo)
+
+sticky - muda a posição original do elemento, gerando um scroll até o fim do elemento pai onde eles está inserido
+
+absolute - mudar a posição original do elemento. Para isso ele pode usar o body da página ou o elemento pai como referÊncia.
+
+Regra 1:
+Se o container pai não tiver position, o elemento usará o body da pagina como referencia para sua nova localização.
+
+Regra 2:
+Se o container pai tiver position, o elemento usará o pai como referência para sua nova localização.
+
+Regra geral: 
+Em qualquer um dos casos, o elemento cria um novo contexto de posicionamento, igual o fixed, os elementos abaixo assumem a sua antiga posição.

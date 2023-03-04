@@ -1,0 +1,48 @@
+div {
+    width: 200px;
+    height: 150px;
+    background-color: rgb(9, 109, 139);
+    /* display: inline-block; */
+    /* flutuacao 
+    O elemento logo abaixo dele herda a flutuacao e se tiver 
+    Float pode ser legal - NAO É O MELHOR DOS MUNDOS
+    */
+
+    float: left;
+
+
+    /* margens
+    quando coloco um unico valor ele aplica esse mesmo valor para margem: top- right - bottom - left
+    2 valores - valor 1= top / bottom - valor 2 -right/left
+    3 valores - valor 1= top - valor 2 - right/left - valor 3 - bottom
+    4 valores - top - right - bottom - left
+    */
+    margin: 50px;
+    /* margin-left: 50px;
+    margin-top: 20px; */
+
+    /* padding = preenchimento (interno) = distancia entre o conteudo e as extremidades do container */
+
+    padding: 10px;
+    /* padding-left: 30px; */
+    /* 
+    quando usamos o padding o valor dele eh atribuido a largua e/ou altura ao tamanho do container - PADRAO usar o box-sizing - permite o padding mas nao altera o tamanho do container; */
+    box-sizing: border-box;
+
+    /* border - contorno que fica antes do conteudo --- tem as mesmas caracteristicas de padding e margin*/
+
+    /* border-width: 10px;
+    border-style: solid;
+    border-color: #f60; */
+
+    /* costumamos declarar as infos da borda assim: segue abaixo */
+
+    /* border: 5px solid #900; */
+
+
+}
+
+h3 {
+    /* clear:both - limpar a flutuacao devo aplicar ao primeiro elemento  */
+    clear: both;
+}

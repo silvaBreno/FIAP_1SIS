@@ -1,0 +1,33 @@
+
+body{
+    height: 400vh;
+}
+
+.container{
+    width: 400px;
+    height: 1500px;
+    border: 1px solid black;
+    position: relative;
+}
+
+.box{
+    width: 150px;
+    height: 110px;
+}
+
+.azul{
+    background-color: #369;
+}
+
+.laranja{
+    background-color: #f60;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.vermelho{
+    background-color: #900;
+    position: relative;
+    z-index: 5;
+}

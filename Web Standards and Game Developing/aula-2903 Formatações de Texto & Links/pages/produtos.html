@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- linkando com a folha de estilos
+    os arquivos estão em uma pasta diferente, então um nível mais interno em outra pasta 
+    precisamos fazer ele voltar esse nível -->
+        <link rel="stylesheet" href="../css/style.css">
+
+        <!-- CSS INTERNO - fica dentro do head e formata os elementos daquela página
+                utilizar a tag style 
+                CSS Interno tem maior relevância do que a CSS Externa - mais próximo do elemento
+        -->
+        <style type="text/css">
+        h1 {
+            color: #000;
+        }
+
+        h3{ color: tomato;}
+        </style>
+
+
+        <title>Página de Produtos</title>
+    </head>
+
+    <body>
+
+        <!-- Menu de navegação -->
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="./clientes.html">Clientes</a></li>
+            <li><a href="./servicos.html">Serviços</a></li>
+        </ul>
+
+        <!-- inline  - fica dentro da tag - mistura tudo - bagunça
+                atributo style - MAIOR ESPECIFICIDADE COM CSS INLINE
+                NUNCA USAR 
+        -->
+        <h1 style="color: #f60;">Página de produtos</h1>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum voluptate fugiat vero alias optio quam maxime
+            eaque tempora dolores nemo. Ab, minus quasi a labore animi soluta cupiditate ipsum nobis, dolorum fugit unde
+            quos adipisci culpa cumque doloremque? Corrupti dolores labore libero, soluta magnam enim aut perferendis
+            inventore sunt tenetur?</p>
+
+        <h3>Teste de CSS</h3>
+
+        <p>Perferendis soluta dolores sit! Cupiditate non eligendi iusto neque facilis consequatur architecto nisi
+            pariatur explicabo. Corrupti dolorum sequi iure deleniti accusamus tempore, nemo odit nostrum sunt quaerat
+            omnis id libero facere nesciunt dolorem doloribus nisi. Recusandae veritatis exercitationem repellendus
+            labore debitis sequi quaerat adipisci iste, eius earum ducimus consequatur dignissimos?</p>
+
+    </body>
+
+</html>

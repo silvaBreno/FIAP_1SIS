@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+
+/* CSS RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    width: 100%;
+    height: 100vh;    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+   
+}
+
+
+.imagem__fundo {
+    background-position: 50%;
+    background-image: url(../images/capa-10.jpg);
+}
+
+.container__texto__inicial{
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    text-align:center;
+    justify-content: center;
+    box-sizing: border-box;
+    
+}
+
+.container__texto__1{
+    font-size: 25px;
+    width: 80vh;
+    font-family: Cabin, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #fff;
+  
+}
+
+
+
+/* Sessões */
+
+.segunda__parte{
+    width: 100%;
+    height: 50vh; 
+    display: flex;
+    background-color: #4d4d8734;
+}
+
+
+.parte2__imagem{
+    width: 50%;
+    height: 50vh;
+}
+
+.imagem__partes__1{
+    width: 100%;
+    height: 50vh;
+    padding:  30px 10px 30px 30px;
+}
+
+.imagem__partes__2{
+    width: 100%;
+    height: 50vh;
+    padding:  30px 30px 30px 10px;
+}
+
+.texto__link{
+    display: flex;
+    width: 50%;
+    height: 466px;
+    color: red;
+
+}
+
+.texto_1{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    text-align:left;
+    align-items:center;
+    padding: 0px 30px; 
+    margin-right: 30px;
+    font-size: 20px;
+    color: #4d4d87;
+    font-weight: 600;
+    font-family: Cabin, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.texto_2{
+    width: 96%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align:left;
+    padding: 0px 30px; 
+    margin-left: 30px;
+    font-size: 20px;
+    /* color: #fff; */
+    /* font-color:  */
+    font-weight: 500;
+    font-family: Cabin, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.texto_3{
+    width: 96%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align:;
+    align-items: ;
+    align-content: space-between;
+    padding: 0px 30px; 
+    margin-right: 30px;
+    font-size: 20px;
+    color: #4d4d87;
+    font-weight: 600;
+    font-color
+    font-family: Cabin, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.links__pagina{
+   color: rgb(2, 121, 2);
+   /* text-decoration: none; */
+   border: 1px solid rgb(2, 121, 2);
+   padding: 15px 30px;
+   border-radius: 5px;
+   margin-right:600px;
+   margin-top: 40px;
+   font-weight: 600;
+   text-transform: uppercase;
+}
+
+.links__pagina:hover{
+    background-color: rgb(2, 121, 2);
+    border: 0;
+    color: #fff;
+    text-decoration: none;
+}
+
+.terceira__parte{
+    display: flex;
+    width: 100%;
+    height: 50vh;
+    background-color: #101d35;
+}
+
+
+
+.parte3__imagem{
+    width: 50%;
+    height: 50vh;
+
+}
+
+.quarta__parte{
+    width: 100%;
+    height: 50vh; 
+    display: flex;
+    background-color: #4d4d8734;
+}
+
+
+.galeria{
+    width: 100%;
+    height: 100vh;
+    padding: 50px 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4d4d8734;
+}
+
+.galeria__pt1{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 50vh;
+  margin-bottom: 15px;
+  
+}
+
+.galeria__pt2{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 50vh;
+    margin-top: 15px;
+    align-items: center;
+
+}
+
+.galeria__imagem__conjunto{
+    display: flex;
+    width: 20%;
+    height: 40vh;
+    justify-content: space-between;
+    
+}
+
+
+
+.imagem__cibersegurança__1{
+ background-image: url(../images/imagem-galeria-1.jpg);
+}
+
+.imagem__cibersegurança__2{
+    background-image: url(../images/imagem-galeria-6.jpg);
+   }
+
+.imagem__cibersegurança__3{
+ background-image: url(../images/imagem-galeria-8.jpg);
+} 
+
+.imagem__cibersegurança__4{
+    background-image: url(../images/imagem-galeria-4.jpg);
+}
+
+.imagem_cibersegurança__5{
+    background-image: url(../images/imagem-galeria-9.jpg);
+}
+.imagem_cibersegurança__6{
+    background-image: url(../images/imagem-galeria-7.jpg);
+}
+.imagem_cibersegurança__7{
+    background-image: url(../images/imagem-galeria-2.jpg);
+}
+.imagem_cibersegurança__8{
+    background-image: url(../images/imagem-galeria-5.jpg);
+}
+
+
+/* footer */
+
+.footer{
+    width: 100%;
+    height: 150px;
+    background-color: #101d35;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:Cabin, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}

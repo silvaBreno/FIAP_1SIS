@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #D9EAF2;
+    font-family: 'IBM Plex Sans', sans-serif;
+    padding: 0.625rem;
+}
+
+.triangulo {
+    margin: 50px;
+    border: 1px solid red;
+    width: 0px;
+    height: 0px;
+}
+
+.bloco{
+    display: flex;
+    width: 600px;
+    border: 1px solid black;
+}
+
+
+#primeiro-triangulo {
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 50px solid blue;
+
+}
+
+#segundo-triangulo {
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 50px solid purple;
+
+}
+
+#terceiro-triangulo {
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 50px solid darkgreen;
+    transform: rotate(90deg);
+
+}
+
+.quadrado{
+    margin: 50px;
+    width: 100px;
+    height: 100px;
+}
+
+#primeiro-quadrado{
+    border: 1px solid darkblue;
+    background-color: darkblue;
+}
+
+#segundo-quadrado{
+    border: 10px double purple;
+    background-color: rgba(240, 125, 240, 0.849);
+    transform:rotate(45deg)
+}
+
+
+#terceiro-quadrado{
+    border: 4px dashed darkgreen;
+    background-color: rgb(29, 155, 29);
+    transform: rotate(150deg);
+}
+
+.circulo{
+    margin: 50px;
+    width: 100px;
+    height: 100px;
+}
+
+#primeiro-circulo{
+    background-color: rgba(0, 0, 0, 0.65);
+    border-radius:50%;
+    border-right: 42px double rgb(255, 115, 0);
+    border-left: 42px double rgb(255, 115, 0);
+     
+}
+
+#segundo-circulo{
+    background-color: purple;
+    border-radius: 50%;
+    border-left: 40px solid rgb(66, 4, 66);
+}
+
+#terceiro-circulo{
+    background-color: darkgrey;
+    border-radius: 50%;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid darkgreen;
+}
+
+
+.bloco2{
+    display: flex;
+    flex-direction: row;
+    width: 600px;
+    border: 1px solid black;
+    height: 350px;
+   
+}
+.ambiente{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    width: 600px;
+    height: 325px;
+  
+}
+
+.quadrado-ambiente{
+    margin: 50px;
+    width: 140px;
+    height: 140px;
+}
+
+#quadrado-maior{
+    border: 10px double purple;
+    background-color: rgba(240, 125, 240, 0.849);
+    transform:rotate(45deg);
+    margin-top: 60px;
+}
+
+#circulo-interno{
+    position: relative;
+    margin: 10px;
+    background-color: purple;
+    border-radius: 50%;
+    border-left: 40px solid rgb(66, 4, 66);
+    transform: rotate(310deg);
+    justify-content: space-between;
+}

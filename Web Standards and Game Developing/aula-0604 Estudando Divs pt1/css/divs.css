@@ -1,0 +1,9 @@
+div{
+    width: 100%;
+    height: 500px;
+    background-color: #000;
+    /* centralizar a div na pagina 
+    top/bottom 10px - right/left auto
+    */
+    margin: 0 auto;
+}

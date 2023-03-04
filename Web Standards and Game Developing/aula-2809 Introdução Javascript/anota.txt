@@ -1,0 +1,9 @@
+Declaração de variável - Formas
+
+let ==> variável de bloco - pode ter o valor alterado
+const ==> variável de bloco tb - NÃO pode ter o valor alterado
+var ==> variável global - pode ser usada em qq parte do script == NÃO USEM
+
+Template String
+INICIAR E FINALIZAR com crase 'escreva o que quiser'
+chamar variável $(nomeda variável)

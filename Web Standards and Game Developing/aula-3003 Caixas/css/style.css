@@ -1,0 +1,17 @@
+/* h1,p {
+    display: inline;
+} */
+/* 
+
+a {
+    display: block;
+} */
+
+div {
+    /* posso expressao em px e em %  */
+    width: 800px;
+    height: 150px;
+    background-color: rgb(39, 113, 156);
+    display: block;
+
+}

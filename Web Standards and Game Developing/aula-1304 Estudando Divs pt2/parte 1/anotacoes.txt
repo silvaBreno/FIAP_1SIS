@@ -1,0 +1,24 @@
+seletor de tag
+  tag que será formatada - util - se vc tem 10 tags e vc formata as 10
+
+  seletor de id
+   tag html recebera o atributo global id ==> todas as tags podem receber id
+   id ==> identificador do elemento
+            nao pode repetir - 2 elementos com o mesmo id
+            quando eu jogar um js mandar ele pegar um id - pegar o primeiro q encontrar 
+            cuidado com os nomes - camel case - comecar com letra minuscula - partir 2 nome  - 1 letra sempre maiscula
+            nome dele deve ser de facil identificacao 
+            no html atributo id ==> div id= "nomeld"
+            na CSS chamada sinal de hashtag (#) ==> #
+********************************************************************************
+
+* 
+
+Seletor de class
+  regra css que sera aplicada a qualquer elemento quantas vezes vc quiser
+  texto --> h1 - h2 - a - li - p
+  mais comum - pode ser replicada
+  class mais generica == muita gente usa (seletores)
+  class mais especificas == para um determinado conjunto de elementos
+  html - atributo de class == class ="nome_class"
+  CSS - chamada da class 

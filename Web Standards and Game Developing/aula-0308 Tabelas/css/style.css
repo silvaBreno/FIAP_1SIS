@@ -1,0 +1,75 @@
+/* Chamada do Google Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+/* reset de css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    background-color: #ccc;
+    /* vw = altura do viewport ou % */
+    width: 95%;
+    height: 75vh;
+    margin: 10px auto;
+
+}
+
+.container h1 {
+    color: rgb(43, 43, 104);
+    font-size: 35px;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.tabela {
+    width: 100%;
+    border-collapse: collapse;
+    /* border: 1px solid rgb(43, 43, 104); */
+}
+
+.tabela caption {
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(43, 43, 104);
+    border-bottom: 1px solid rgb(43, 43, 104);
+    margin-bottom: 10px;
+
+}
+
+thead tr,
+tfoot tr {
+    background-color: rgb(43, 43, 104);
+    color: #fff;
+
+}
+
+
+
+tbody tr {
+    border-bottom: 1px solid rgb(103, 103, 226);
+}
+
+tbody tr:hover {
+    background-color: rgb(103, 103, 226);
+}
+
+td,
+th {
+    padding: 15px 0;
+    text-align: center;
+    width: 25%;
+}
+
+tfoot td {
+    font-size: 14px;
+}

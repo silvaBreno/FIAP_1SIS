@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Formulários</title>
+
+    <!-- CSS Interno - apenas para efeito desta aula  -->
+
+    <style type="text/css">
+        
+        body{
+            font-family: calibri;
+        }
+
+        div{
+            margin: 15px 0;
+        }
+    </style>
+    
+</head>
+<body>
+    <h1>Formulários - Componentes Básicos</h1>
+
+    
+
+    <form action="" id="dados" name="dados" method="post">
+        <!-- colocar "usuario" na label e no id para linkar um com o outro, quando eu clicar na palavra usuario vai habilitar a edicao do formulario -->
+        <!-- max e min length - limita a quantidade min e max de caracteres -->
+        <!-- placeholder - deixa escrito algo para ajudar o usuario -->
+        <!-- required - torna o campo obrigatorio -->
+        <!-- autofocus - ao carregar a pagina ele ja pula para o campo que estiver com o autofocus! TOMAR CUIDADO PARA NAO COLOCAR EM TODOS! COLOCAR EM APENAS UM CAMPO! E SE O CAMPO Q ESTIVER COM AUTOFOCUS AO CARREGAR A PAGINA, A PAGINA VAI PULAR E DAR SCROLL ATE O CAMPO QUE ESITVER COM O AUTOFOCUS -->
+        <div>
+            <label for="usuario">Usuário: </label>
+            <input type="text" id="usuario" name="usuario" placeholder="Ex: Fulano de Tal" maxlength="20" minlength="10" required autofocus>   
+        </div>
+
+        <div>
+            <label for="idade">Idade</label>
+            <input type="text">
+        </div>
+
+        <div>
+            <label for="senha">Senha: </label>
+            <input type="password" id="senha" name="senha" placeholder="Ex:123456" maxlength="20" minlength="10" required>
+        </div>
+
+        <div>
+            <label for="dtaNascimento">Data de Nascimento: </label>
+            <input type="date" name="dtaNascimento" id="dtaNascimento" required>
+        </div>
+
+        <div>
+            <label for="">Departamento: </label>
+            <!-- apertar shift+alt+seta para baixo para duplicar o input (So deixar o cursor na tag) -->
+            <!-- nao posso ter id iguais -->
+            <!-- value eh a informaçao que o formulario passaria para a string no backend / n utilizar value como placeholder-->
+            <input type="radio" name="depto" id="depto1" value="1">
+            <label for="depto1">Tecnologia</label>
+
+            <input type="radio" name="depto" id="depto2" value="2">
+            <label for="depto2">Diretoria</label>
+
+            <input type="radio" name="depto" id="depto3" value="3">
+            <label for="depto3">Gerência</label>
+
+            <input type="radio" name="depto" id="depto4" value="4">
+            <label for="depto4">Financeiro</label>
+        </div>
+
+        <div>
+            <label for="">Áreas de Atuação: </label>
+            <!-- a diferenca do radio para o checkbox é que voce pode selecionar multiplas caixinhas -->
+            <!-- apenas para curiosidade - tag checked - deixa o campo selecionado - NAO USAR -->
+            <input type="checkbox" name="atuacao" id="atuacao1" value="1">
+            <label for="atuacao1">Front End</label>
+
+            <input type="checkbox" name="atuacao" id="atuacao2" value="2">
+            <label for="atuacao2">Back End</label>
+
+            <input type="checkbox" name="atuacao" id="atuacao3" value="3">
+            <label for="atuacao3">Full Stack</label>
+
+            <input type="checkbox" name="atuacao" id="atuacao4" value="4">
+            <label for="atuacao4">Gerência de Projetos</label>
+        </div>
+
+        <div>
+            <label for="formacao">Formação: </label>
+            <select name="formacao" id="formacao" required>
+                <option value="0" disabled selected>Selecione sua opção</option>
+                <option value="1">Ensino Médio</option>
+                <option value="2">Ensino Superior</option>
+                <option value="3">Pós-Graduação</option>
+                <option value="4">Mestrado</option>
+                <option value="5">Doutorado</option>
+            </select>
+        </div>
+
+       <div>
+           <label for="mensagem">Mensagem: </label>
+           <textarea name="mensagem" id="mensagem" placeholder="Sua mensagem..."></textarea>
+       </div>
+
+       <div>
+           <label for="arquivo">Enviar arquivo: </label>
+           <input type="file" id="arquivo" name="arquivo">
+       </div>
+
+       <div>
+           <label for="">Número de apartamento:</label>
+           <input type="number" name="numero" id="numero" required min="10" max="100" step="5">
+       </div>
+
+       <div>
+           <label for="valores">Escala de valores:</label>
+           <input type="range" name="valores" id="valore" min="100" max="1000" step="100">
+       </div>
+
+       <div>
+           <label for="cor">Cor:</label>
+           <input type="color" name="cor" id="cor">
+       </div>
+
+       <div>
+           <label for="">Email:</label>
+           <input type="email" id="email" name="email" required>
+       </div>
+
+       <div>
+           <label for="hora">Hora Certa:</label>
+           <input type="time" id="hora">
+       </div>
+
+       <div>
+        <label for="hora">Data e Hora:</label>
+        <input type="datetime-local" >
+    </div>
+
+       <div>
+           <input type="submit" value="Enviar Dados">
+           <input type="reset" value="Limpar Dados">
+           <input type="button" value="Função em JS">
+        </div>
+
+        <div>
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpar</button>
+            <button type="button">JavaScript</button>
+        </div>
+
+    </form>
+
+</body>
+</html>

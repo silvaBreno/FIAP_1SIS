@@ -1,0 +1,16 @@
+div de container - receber uma parte grande de conteudo provavelmente outras divs
+BEM - metodologia para nomes de classes classes
+B - bloco - onde o elemento está - quem é o elemento
+E - elemento - quem é o elemento do bloco
+M - modificador - clicado - nao clicado - estado
+
+antes de começar definir as novas regras - costumamos colocar um reset CSS
+ideia é zerar padroes de margem-padding
+existem bibliotecas que fazem isso
+podemos fazer um reset basico - jé é suficiente
+ideia inicial ter um padrao no navegador
+para resetar todas as tags == usar o asterisco (*)
+https://meyerweb.com/eric/tools/css/reset/
+
+:hover - aplica uma formatacao quando o mouse passar sobre o elemento
+cuidado nao deixar espaco entre os elementos

@@ -1,0 +1,52 @@
+unidades de medidas
+
+px - medida fixa- nunca muda - definir alguma propriedade em px - esse valor nunca será alterado
+% - faz referencia ao tamanho do container pai - onde ele está inserido - pai   tem 100% de largura - filho tem 50% de largura - terá 50% dos 100% do pai
+
+vw - referencia ao valor do viewport - largura do viewport - 10 vw == 10% da largura do viewport
+vh - referencia ao valor do viewport - altira dp viewport - 10vh == 10% do viewport 
+
+viewport = tamanho da área de exibição de conteudo do dispositivo que está acessando a pagina
+A Meta tag uqe pega o viewport <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+EM - criada pela indústria gráfica - impressão - 1EM representa exatamente o tanabgi da ketra M - distancia que a letra M terá das demais.
+
+No devweb o EM é representado pelo tamanho da fonte do elemento pai 
+pai - font-size: 10px;
+filho font-size: 2em == 2*10 = 20px;
+Usou EM - não esquecer de definir o tamanho da fonte do elemento pai, pois se vc esquecer ele vai pegar o tamanho do pai do pai, vai buscar elemento(s) acima do pai dele.
+
+Exemplo no código: 
+
+main{
+    font-size: 50px;
+}
+
+article{
+    font-size: 10px;
+}
+
+article p{
+    color: #900;
+    font-size: 2em;
+}
+
+REM 
+
+R - reperesenta o elemento ROOT da página - HTML
+Definir um valor para o texto da root, e assim quando vc usar o REM ele irá fazer essa referencia da mesma forma do EM.
+
+Breakpoint - Ponto de quebra
+Tamanhos onde o layout irá mudar - Sua regra CSS deverá estar pronta para esses tamanhos.
+Na CSS, os Breakpoints são usados nas Medias queries - dentro delas == REGRA CSS para esse tamanho
+Não é necessário e nem vai reescrever todo o código - vc vai reescrever apenas as pares que precisam de alteração. Se as demais estiverem ficarem legais nas demais telas, você não precisa alterar.
+Para funcionar bem: medidas flexíveis - Imagens Flexíveis - Breakpoint
+
+max-width = o tamanho máximo que a tela terá para que a nova regra funcione;
+Ex: max-width: 500px == Essa regra funciona para telas de 0px até 500px
+
+min-width = o tamanho minimo que a tela terá que a nova regra funcione
+ex: min-width: 500px == essa regra funciona para telas de 500px até............
+
+@media()

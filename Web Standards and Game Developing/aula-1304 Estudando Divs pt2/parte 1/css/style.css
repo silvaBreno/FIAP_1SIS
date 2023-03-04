@@ -1,0 +1,29 @@
+ div {
+     width: 300px;
+     height: 250px;
+     border: 1px solid #900;
+ }
+
+ #primeiraDiv {
+     width: 500px;
+     border: 2px dotted #963;
+ }
+
+ #segundaDiv {
+     height: 150px;
+     background-color: #900;
+ }
+
+ #terceiraDiv {
+     background-color: #f60;
+ }
+
+ .formata_titulo {
+font-size: 28px;
+color: rgb(18, 71, 121);
+text-align: center;
+ }
+
+ .sublinha_texto {
+  text-decoration: underline;   
+ }

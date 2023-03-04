@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&family=Noto+Sans+TC:wght@300&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
+.header {
+  height: 70px;
+  background-color: rgb(39, 36, 36);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+}
+
+.header__logo {
+  display: flex;
+  align-items: center;
+}
+
+.header__logo img {
+  width: 70px;
+}
+
+.header__menu ul {
+  display: flex;
+  list-style: none;
+  width: 100%;
+}
+
+.header__menu ul li {
+  margin: 0 8px;
+}
+
+.header__menu li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.imagem {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.container {
+  width: 100%;
+  height: 400px;
+  padding: 30px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container__conjunto {
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+  height: 300px;
+}
+
+.container__conjunto__imagem {
+  width: 47%;
+  height: 100%;
+}
+
+.container__logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 20%;
+}
+
+.container__bloco__texto {
+  width: 28%;
+}
+
+.container__bloco__material {
+  width: 33%;
+}
+
+.bloco__material__titulo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bloco__material__galeria {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 17vh;
+}
+
+.galeria__imagem {
+  width: 47%;
+  height: 80%;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  height: 71px;
+  background-color: rgb(39, 36, 36);
+  padding: 0 15px;
+}
+
+.footer__contato {
+  display: flex;
+}
+
+.footer__contato__item {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 0 15px;
+  color: #fff;
+  font-size: 15px;
+}
+
+.footer__contato__item a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer__logo__fiap {
+  width: 71px;
+  margin-right: 15px;
+}
+
+
+.cor__fundo1 {
+  background-color: #EB5A3B;
+}
+
+.cor__fundo2 {
+  background-color: #EE9783;
+}
+
+.titulo {
+  font-family: 'Cabin', serif;
+}
+
+.contato__instagram:hover {
+  color: #3f729b;
+}
+
+.contato__email:hover {
+  color: #c4302b;
+}
+
+
+.imagem__robo__1 {
+  background-image: url(../images/alejandro-mendoza-i9JXr8a-QvU-unsplash-2.jpg);
+}
+
+.imagem__robo__2 {
+  background-image: url(../images/jason-leung-1DjbGRDh7-E-unsplash-2.jpg);
+}
+
+.imagem__robo__3 {
+  background-image: url(../images/wu-yi-KDvDRb_dRGg-unsplash.jpg);
+}
+
+.imagem__robo__4 {
+  background-image: url(../images/pexels-lj-2085831.jpg);
+}
+
+.imagem__arduino {
+  background-image: url(../images/arduino.jpg);
+}
+
+.imagem__bateria {
+  background-image: url(../images/bateria-2.jpg);
+}
+
+.imagem__motor {
+  background-image: url(../images/motor.jpg);
+}
+
+.imagem__rodinha {
+  background-image: url(../images/roda_espuma.jpg);
+}

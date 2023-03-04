@@ -1,0 +1,25 @@
+https://wireframe.cc/vpuij9
+
+classe container ela é bem genérica - ela será para a criação de todos container  ela tem: largura / altura / imagem de fundo
+
+background-attachment: scroll ==> A imagem de fundo acompanha a rolagem da tela
+fixed ==> a imagem de fundo ficará fixa na tela, enquanto a rolagem for executada 
+flex por padrão os filhos ao lado do pai
+flex-direction = row (um ao lado do outro)
+flex-direction = column (um abaixo do outro)
+
+link para secoes na pagina
+atribudo id ==> identificar qq elemento, nao podemos ter ids iguais na pagina
+<tag id="valor> </tag> ==> valor nao podera ser o mesmo para outro elemento
+position = define a posicao de elementos - ele sai do fluxo normal e varias ele cria um outro 
+contexto - sai da posicao e o elemtno assume a posicao que era dele
+todo elemento por padrao tem position ==> static (padrao) nao tem as 5 propriedades extras
+fixed ==> fica fixo na posicao definida
+quando vc aplica position - ganha outras 5 propriedades
+top - right - bottom - left (basta usar 2) z-index (profundidade)
+
+scroll-behavior - smooth - pequena animação na página
+só funciona quando aplicado na CSS dentro da tag html
+site= caniuse.com
+
+trocar o padrao - flex-direction: row; 

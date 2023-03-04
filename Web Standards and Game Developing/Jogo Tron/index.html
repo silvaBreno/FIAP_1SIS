@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <title>Canvas 3</title>
+  <style>
+    #canvas {
+      background-image: url(./images/giphy_space2.gif);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      border: 2px solid white;
+    }
+  </style>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__box">
+      <h2 class="header__box__titulo">Player 1</h2>
+      <div class="header__box__barra" id="barra-player1">100%
+      </div>
+    </div>
+
+    <div class="header__box">
+      <h2 class="header__box__titulo">Player 2</h2>
+      <div class="header__box__barra" id="barra-player2">100%
+      </div>
+    </div>
+
+  </header>
+
+  <div class="container">
+    <canvas id="canvas" width="1000" height="500"></canvas>
+  </div>
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="sweetalert2.all.min.js"></script>
+  <script type="text/javascript" src="./js/quadrado.js"></script>
+  <script type="text/javascript" src="./js/funcoes.js"></script>
+
+
+</body>
+
+</html>
